@@ -75,3 +75,43 @@ footer {
     background: #111;
     color: white;
 }
+.skills-grid div {
+    background: #111;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: white;
+    overflow: hidden;
+}
+
+.experience-banner {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.experience-track {
+    display: inline-block;
+    animation: scrollLeft 12s linear infinite;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
